@@ -1,0 +1,816 @@
+Only in 2.4.2/target/liberty/wlp/bin: batchManager
+Only in 2.4.2/target/liberty/wlp/bin: batchManager.bat
+Only in 2.4.2/target/liberty/wlp/bin: ddlGen
+Only in 2.4.2/target/liberty/wlp/bin: ddlGen.bat
+Only in 2.4.2/target/liberty/wlp/bin: jaxb
+Only in 2.4.2/target/liberty/wlp/bin: pluginUtility
+Only in 2.4.2/target/liberty/wlp/bin: pluginUtility.bat
+Only in 2.4.2/target/liberty/wlp/bin/tools: ws-generateddlutil.jar
+Only in 2.4.2/target/liberty/wlp/bin/tools: ws-jbatchutil.jar
+Only in 2.4.2/target/liberty/wlp/bin/tools: ws-webserverPluginutil.jar
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.basics_1.3-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.distributedMap_2.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.endpoint_1.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.json_1.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.persistence_1.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.security.spnego_1.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.security_1.2-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.servlet_1.1-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.ssl_1.1-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm/javadoc: com.ibm.websphere.appserver.api.transaction_1.1-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/api/ibm: schema
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.anno_1.1-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.application_1.1-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.artifact_1.2-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.classloading_1.4-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.collectivePlugins_2.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.containerServices_3.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.httptransport_4.1-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.javaeedd_1.3-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.restAPIDiscovery_2.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.restHandler_2.0-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.servlet_2.2-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.ssl_1.2-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.transaction_1.1-javadoc.zip
+Only in 2.4.2/target/liberty/wlp/dev/spi/ibm/javadoc: com.ibm.websphere.appserver.spi.wab.configure_1.0-javadoc.zip
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.adminSecurity-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.adminSecurity-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.adminSecurity-1.0.cs	2018-08-08 17:26:19.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.adminSecurity-1.0.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:19 EDT 2018
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/com.ibm.ws.webcontainer.security_1.0.21.jar=ecd6054609751653faf63d420aa5356f
+ lib/features/com.ibm.websphere.appserver.adminSecurity-1.0.mf=a0e7cf786c47df5542de3a6846dbf516
+ lib/com.ibm.ws.webcontainer.security.admin_1.0.21.jar=e7f9c1c40555f23a997c86e06839bafe
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.anno-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.anno-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.anno-1.0.cs	2018-08-08 17:25:43.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.anno-1.0.cs	2018-08-08 17:25:08.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:25:43 EDT 2018
++#Wed Aug 08 17:25:08 EDT 2018
+ lib/features/com.ibm.websphere.appserver.anno-1.0.mf=4e46a6b64f0c1e224086b739c124a852
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.anno_1.1.21.jar=cc4d8e8c6c2819833e920d035a32d3ab
+ lib/com.ibm.ws.anno_1.0.21.jar=c11e9eee5a3631f06252fa514705e2dc
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.anno_1.1-javadoc.zip=e1287a5c4153b6fc07eec8fad26fba98
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.appLifecycle-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.appLifecycle-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.appLifecycle-1.0.cs	2018-08-08 17:25:49.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.appLifecycle-1.0.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:25:49 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/com.ibm.ws.app.manager.lifecycle_1.0.21.jar=ffd231c086be09299d66b7b5a5b46e22
+ lib/features/com.ibm.websphere.appserver.appLifecycle-1.0.mf=6e67ee7ff14e93a7caa1284b3df834ea
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.appmanager-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.appmanager-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.appmanager-1.0.cs	2018-08-08 17:26:06.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.appmanager-1.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,9 +1,7 @@
+-#Wed Aug 08 17:26:06 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/features/com.ibm.websphere.appserver.appmanager-1.0.mf=f02d005655b5202e5f2021d6595ca611
+ lib/com.ibm.ws.app.manager.ready_1.0.21.jar=6dc12abf0be55a8d9f0c465c32b552af
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.application_1.1.21.jar=6f7aee01d4e5e628a112780f9acb471e
+ lib/com.ibm.ws.app.manager_1.1.21.jar=89f9e1a5f2e82f01f959e8bb124a7567
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.application_1.1-javadoc.zip=9164d0f0bb622cc9d317852bbbb61b56
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.basics_1.3-javadoc.zip=5ca2e692ac4ecd469c45645f874125cf
+ lib/com.ibm.websphere.security_1.1.21.jar=3ca5e191cccb1a4c85962b3feb6e06dc
+ dev/api/ibm/com.ibm.websphere.appserver.api.basics_1.3.21.jar=6a4302c3d5be9e5f3e3698b147c9f951
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.artifact-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.artifact-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.artifact-1.0.cs	2018-08-08 17:25:43.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.artifact-1.0.cs	2018-08-08 17:25:08.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:25:43 EDT 2018
++#Wed Aug 08 17:25:08 EDT 2018
+ lib/com.ibm.ws.artifact.equinox.module_1.0.21.jar=b2892d9862fae2fed621493fb2231e19
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.artifact_1.2.21.jar=624e717de80779e4013dd06f6e29fa3b
+ lib/com.ibm.ws.classloading.configuration_1.0.21.jar=586d56d6aef9ac31e9692292aa30a7c6
+@@ -10,5 +10,4 @@
+ lib/com.ibm.ws.adaptable.module_1.0.21.jar=8b67e3b191cd029b5af260112ab69043
+ lib/com.ibm.ws.artifact.overlay_1.0.21.jar=8ad41a950d3658c210725de160517f54
+ lib/com.ibm.ws.artifact_1.0.21.jar=4150eee5e3c04f0875d057ad1dd9cb78
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.artifact_1.2-javadoc.zip=1ca385a1b6f4bf3ca54d8aacba1bddeb
+ lib/com.ibm.ws.artifact.bundle_1.0.21.jar=1bbfb7b20e684bc04908f460c72edf4f
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoRestHandlerApiDiscovery-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoRestHandlerApiDiscovery-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoRestHandlerApiDiscovery-1.0.cs	2018-08-08 17:26:21.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoRestHandlerApiDiscovery-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:21 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/com.ibm.websphere.rest.api.discovery_1.0.21.jar=6b380b7091131f89e2886ac343de9cd7
+ lib/features/com.ibm.websphere.appserver.autoRestHandlerApiDiscovery-1.0.mf=30d20934a4d2647cd90dcd4867c5eaf5
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.restAPIDiscovery_2.0.21.jar=31571b2b1d16765c2759e5b950cf836e
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.restAPIDiscovery_2.0-javadoc.zip=979d372fb455c6a7508907992954c236
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoRestHandlerCollectivePlugins-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoRestHandlerCollectivePlugins-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoRestHandlerCollectivePlugins-1.0.cs	2018-08-08 17:26:48.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoRestHandlerCollectivePlugins-1.0.cs	2018-08-08 17:25:14.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:48 EDT 2018
++#Wed Aug 08 17:25:14 EDT 2018
+ lib/features/com.ibm.websphere.appserver.autoRestHandlerCollectivePlugins-1.0.mf=975f599aeec28d3e0aa30f24f708c358
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.collectivePlugins_2.0.21.jar=d851a02dcb309e9d07db96d72b58e018
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.collectivePlugins_2.0-javadoc.zip=2a81984fceb98a3955d00cbb66944267
+ lib/com.ibm.websphere.collective.plugins_1.0.21.jar=952f7c98b6ca6eca475c79f389cca7a6
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoSecurity-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoSecurity-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoSecurity-1.0.cs	2018-08-08 17:26:48.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoSecurity-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,4 +1,3 @@
+-#Wed Aug 08 17:26:48 EDT 2018
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.security.spnego_1.0-javadoc.zip=dba2714110fb99e61a7cfeddb5173841
++#Wed Aug 08 17:25:13 EDT 2018
+ dev/api/ibm/com.ibm.websphere.appserver.api.security.spnego_1.0.21.jar=84b1e425b4d88d342d8cf397227b957d
+ lib/features/com.ibm.websphere.appserver.autoSecurity-1.0.mf=1d9d5227bc7fe40484217650c9962aa8
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoSecurityS4U2-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoSecurityS4U2-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoSecurityS4U2-1.0.cs	2018-08-08 17:26:48.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoSecurityS4U2-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:48 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/com.ibm.ws.security.token.s4u2_1.0.21.jar=0ede7307bd47f7ad9997e11338c47981
+ lib/features/com.ibm.websphere.appserver.autoSecurityS4U2-1.0.mf=f2e7b55432116bb37cba62e3ab56a3fa
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoWebcontainerSecurity-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoWebcontainerSecurity-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoWebcontainerSecurity-1.0.cs	2018-08-08 17:26:48.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.autoWebcontainerSecurity-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:48 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/com.ibm.ws.webcontainer.security.provider_1.0.21.jar=0072da995435bbf3539784f6f492127a
+ lib/features/com.ibm.websphere.appserver.autoWebcontainerSecurity-1.0.mf=779bc908c4b392bb39308ac4b27b6327
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.basicRegistry-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.basicRegistry-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.basicRegistry-1.0.cs	2018-08-08 17:26:12.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.basicRegistry-1.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:12 EDT 2018
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/com.ibm.ws.security.registry_1.0.21.jar=ca0b6fb28d41429c35e6488e3c8ae830
+ lib/com.ibm.ws.security.registry.basic_1.0.21.jar=1b08fe2bc624f498bd42f2e663ce9982
+ lib/features/com.ibm.websphere.appserver.basicRegistry-1.0.mf=8f90bc1844704a35926a573d3b9bf4f0
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.batch-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.batch-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.batch-1.0.cs	2018-08-08 17:26:46.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.batch-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:46 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/com.ibm.jbatch.spi_1.0.21.jar=df83a04a8f0c4bdfff827db9f8ebe5e5
+ lib/features/com.ibm.websphere.appserver.batch-1.0.mf=5e0f20446c17fde25d7bd717ab4a3941
+ dev/api/spec/com.ibm.websphere.javaee.batch.1.0_1.0.21.jar=3979956a50a1096cba81ba35a73154cc
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.batchManagement-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.batchManagement-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.batchManagement-1.0.cs	2018-08-08 17:26:47.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.batchManagement-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,8 +1,5 @@
+-#Wed Aug 08 17:26:47 EDT 2018
+-bin/tools/ws-jbatchutil.jar=af918c9bea0b319ac8c0edfc7fba1871
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/com.ibm.ws.jbatch.utility_1.0.21.jar=98941c75162adcbfb7214c1d7d39cbe1
+ lib/com.ibm.ws.jbatch.joblog_1.0.21.jar=1fa2efd53b142119fe0952dd4296de72
+ lib/features/com.ibm.websphere.appserver.batchManagement-1.0.mf=39a9ed5fafcef376950d0e010ee4e1a2
+-bin/batchManager=2a85f4785408967a3439a1e7c2044765
+-bin/batchManager.bat=ffab32558d14fdcbdf9427cebadfc4f5
+ lib/com.ibm.ws.jbatch.rest_1.0.21.jar=8476d9fedf46d3685f7ebdc5afcefccc
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.builtinAuthentication-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.builtinAuthentication-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.builtinAuthentication-1.0.cs	2018-08-08 17:26:13.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.builtinAuthentication-1.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:13 EDT 2018
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/com.ibm.ws.security.authentication_1.0.21.jar=1cfac56b372c10cbedb8b822c4649778
+ lib/features/com.ibm.websphere.appserver.builtinAuthentication-1.0.mf=3be3f06ebe56cb3fb770f3c4bc917be9
+ lib/com.ibm.ws.security.jaas.common_1.0.21.jar=2f0bd8201d1f0e0994481f832f512ec9
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.builtinAuthorization-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.builtinAuthorization-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.builtinAuthorization-1.0.cs	2018-08-08 17:26:13.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.builtinAuthorization-1.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:13 EDT 2018
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/com.ibm.ws.security.authorization_1.0.21.jar=d0de02166c870824d860440bd6ad803f
+ lib/com.ibm.ws.security.authorization.builtin_1.0.21.jar=b86b28f64c07d0147dd26a22487da75c
+ lib/features/com.ibm.websphere.appserver.builtinAuthorization-1.0.mf=b2c5d74f4016b1f2bd4b2b104d7391ec
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.channelfw-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.channelfw-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.channelfw-1.0.cs	2018-08-08 17:26:02.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.channelfw-1.0.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:02 EDT 2018
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.endpoint_1.0-javadoc.zip=ea0ad6410e40158012436eb40e446238
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/com.ibm.ws.timer_1.0.21.jar=3838557628784cff4eddd9803cddaff6
+ dev/api/ibm/com.ibm.websphere.appserver.api.endpoint_1.0.21.jar=4a8e14175c877c9ca3270834456ffb33
+ lib/com.ibm.ws.channelfw_1.0.21.jar=3e52e21276a8f4a7dccfad662cd286a9
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.classloaderContext-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.classloaderContext-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.classloaderContext-1.0.cs	2018-08-08 17:26:48.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.classloaderContext-1.0.cs	2018-08-08 17:25:14.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:48 EDT 2018
++#Wed Aug 08 17:25:14 EDT 2018
+ lib/com.ibm.ws.classloader.context_1.0.21.jar=6590042137cea393db2e8ff9b62e9222
+ lib/features/com.ibm.websphere.appserver.classloaderContext-1.0.mf=ce8b57ea8ad1defcb5744760a69c29ec
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.classloading-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.classloading-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.classloading-1.0.cs	2018-08-08 17:25:52.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.classloading-1.0.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:25:52 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/features/com.ibm.websphere.appserver.classloading-1.0.mf=118b54506affac5f8529171b90a9c492
+ lib/com.ibm.ws.classloading_1.1.21.jar=254bf48886c533c46e170a5d711e903f
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.classloading_1.4-javadoc.zip=ba8522a600226866dac832fa91ddf93d
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.classloading_1.4.21.jar=5b9dca0f6b2f7c0979504b221c2171cc
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.connectionManagement-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.connectionManagement-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.connectionManagement-1.0.cs	2018-08-08 17:26:24.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.connectionManagement-1.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:24 EDT 2018
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/com.ibm.ws.jca.cm_1.0.21.jar=b6b151e0557a465b65822ec6aa120521
+ lib/features/com.ibm.websphere.appserver.connectionManagement-1.0.mf=444c4a463eda0341f61860ec2edfe0cd
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.containerServices-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.containerServices-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.containerServices-1.0.cs	2018-08-08 17:25:47.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.containerServices-1.0.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,8 +1,7 @@
+-#Wed Aug 08 17:25:47 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/com.ibm.ws.javaee.version_1.0.21.jar=237b4bb1cbd6966d9983e486a3097341
+ lib/com.ibm.ws.serialization_1.0.21.jar=6d42ee94e1f740f7ee094adf2021e8a9
+ lib/com.ibm.ws.container.service_1.0.21.jar=20e3bc5e22eefb18979c9adfefea8a94
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.containerServices_3.0-javadoc.zip=93ed2d3659d7bc68d751012fad35f7fd
+ lib/features/com.ibm.websphere.appserver.containerServices-1.0.mf=aa1c37f6ef828c7ee34e75e3b5e124e3
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.containerServices_3.0.21.jar=a0494d588ce6e2a7fc98675dfc64461a
+ lib/com.ibm.ws.resource_1.0.21.jar=294e0fb6faa3064d80ac75d81a8e6c08
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.contextService-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.contextService-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.contextService-1.0.cs	2018-08-08 17:25:51.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.contextService-1.0.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:25:51 EDT 2018
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/com.ibm.ws.context_1.0.21.jar=71b69912113a221d23af2c4ead85f3b5
+ lib/features/com.ibm.websphere.appserver.contextService-1.0.mf=7adafb63f612d98f7c57f788882b1803
+ lib/com.ibm.ws.resource_1.0.21.jar=294e0fb6faa3064d80ac75d81a8e6c08
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.distributedMap-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.distributedMap-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.distributedMap-1.0.cs	2018-08-08 17:26:16.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.distributedMap-1.0.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:16 EDT 2018
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.distributedMap_2.0-javadoc.zip=0e508cdcf490996823cd308f449f0880
++#Wed Aug 08 17:25:12 EDT 2018
+ dev/api/ibm/com.ibm.websphere.appserver.api.distributedMap_2.0.21.jar=3a4d7a15882a3bc7965967478ac829a7
+ lib/features/com.ibm.websphere.appserver.distributedMap-1.0.mf=6e6697b5eb4a53da5ecd09c8fa53121d
+ lib/com.ibm.ws.dynacache_1.0.21.jar=10991e6b7bf285f7bbac72f2bc51de02
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.dynamicBundle-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.dynamicBundle-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.dynamicBundle-1.0.cs	2018-08-08 17:25:51.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.dynamicBundle-1.0.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:25:51 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/features/com.ibm.websphere.appserver.dynamicBundle-1.0.mf=e9f6f77033e1c60fb697f9f7b2e1cade
+ lib/com.ibm.ws.dynamic.bundle_1.0.21.jar=bd24044c8110b57716108ca264e36e22
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.httptransport-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.httptransport-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.httptransport-1.0.cs	2018-08-08 17:26:05.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.httptransport-1.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:05 EDT 2018
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.httptransport_4.1-javadoc.zip=6fd96896b6328830561b1973d62cb493
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/com.ibm.ws.transport.http_1.0.21.jar=28e591bbe5805b616a2de713f42dab80
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.httptransport_4.1.21.jar=9ca3a6b9600544de1ba0f7dfffefdbcd
+ lib/features/com.ibm.websphere.appserver.httptransport-1.0.mf=3dc908f6311cdf44977d0a8f246be597
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.injection-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.injection-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.injection-1.0.cs	2018-08-08 17:25:48.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.injection-1.0.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:25:48 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/features/com.ibm.websphere.appserver.injection-1.0.mf=d9045f8cb356cd98e17a9da7ebe365fb
+ lib/com.ibm.ws.injection_1.0.21.jar=fa0150509f58159c9bb124816119ee0c
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.internal.jaxb-2.2.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.internal.jaxb-2.2.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.internal.jaxb-2.2.cs	2018-08-08 17:25:55.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.internal.jaxb-2.2.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:25:55 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/features/com.ibm.websphere.appserver.internal.jaxb-2.2.mf=4257f0a74309f73ed6e1eff945364e77
+ lib/com.ibm.ws.org.apache.geronimo.osgi.registry.1.1_1.0.21.jar=6f7722b3e36eb1afb9ae58fd4682ca5e
+ lib/com.ibm.ws.jaxb.tools.2.2.10_1.0.21.jar=1d63128a608e4be47161f7a0c9da7038
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.internal.slf4j-1.7.7.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.internal.slf4j-1.7.7.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.internal.slf4j-1.7.7.cs	2018-08-08 17:26:10.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.internal.slf4j-1.7.7.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:10 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/com.ibm.ws.org.slf4j.jdk14.1.7.7_1.0.21.jar=353669ff714ec2ee6bfedd63cd2ae2d1
+ lib/com.ibm.ws.org.slf4j.api.1.7.7_1.0.21.jar=2afcd9887ae80b3bad89124ffc95116d
+ lib/features/com.ibm.websphere.appserver.internal.slf4j-1.7.7.mf=7782bd76cc00de9177f316f4735f9ca4
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeCompatible-6.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeCompatible-6.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeCompatible-6.0.cs	2018-08-08 17:26:07.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeCompatible-6.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:07 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/com.ibm.ws.javaee.version_1.0.21.jar=237b4bb1cbd6966d9983e486a3097341
+ lib/features/com.ibm.websphere.appserver.javaeeCompatible-6.0.mf=5b1fbf7dfa14cac52d0834f1f9a93ff4
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeCompatible-7.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeCompatible-7.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeCompatible-7.0.cs	2018-08-08 17:26:40.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeCompatible-7.0.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:40 EDT 2018
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/com.ibm.ws.javaee.version_1.0.21.jar=237b4bb1cbd6966d9983e486a3097341
+ lib/features/com.ibm.websphere.appserver.javaeeCompatible-7.0.mf=9157f827bb556f9ce45565fbfd09ac11
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform-6.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform-6.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform-6.0.cs	2018-08-08 17:26:07.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform-6.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:07 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/com.ibm.ws.javaee.version_1.0.21.jar=237b4bb1cbd6966d9983e486a3097341
+ lib/com.ibm.ws.app.manager.module_1.0.21.jar=1a887699d050356555a4d9396c0f9792
+ lib/com.ibm.ws.security.java2sec_1.0.21.jar=ad2cf17884a05e23695b1e14457b32c8
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform-7.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform-7.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform-7.0.cs	2018-08-08 17:26:21.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform-7.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:21 EDT 2018
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/com.ibm.ws.javaee.version_1.0.21.jar=237b4bb1cbd6966d9983e486a3097341
+ lib/com.ibm.ws.javaee.platform.v7_1.0.21.jar=7a28ae7734641d9c0c79f956d84c5207
+ lib/com.ibm.ws.javaee.platform.defaultresource_1.0.21.jar=af393027a7776164e87a75192871e022
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0.cs	2018-08-08 17:26:21.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:21 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/com.ibm.ws.javaee.platform.v7.jndi_1.0.21.jar=874a3f4227a054a2fe315442b8e68c36
+ lib/features/com.ibm.websphere.appserver.javaeePlatform7.0-jndi1.0.mf=a3a428bf973427b69fe50604f329b0ac
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeedd-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeedd-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeedd-1.0.cs	2018-08-08 17:25:46.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeedd-1.0.cs	2018-08-08 17:25:08.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:25:46 EDT 2018
++#Wed Aug 08 17:25:08 EDT 2018
+ lib/com.ibm.ws.javaee.version_1.0.21.jar=237b4bb1cbd6966d9983e486a3097341
+ lib/com.ibm.ws.javaee.dd.ejb_1.1.21.jar=91eaef453b74865aaba0be7010efb62a
+ lib/com.ibm.ws.javaee.dd.common_1.1.21.jar=56cae2b20cab0601d170164fb7c3bfa5
+@@ -6,4 +6,3 @@
+ lib/com.ibm.ws.javaee.dd_1.0.21.jar=2968b40062e43b0538ca50a4587c27a4
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.javaeedd_1.3.21.jar=2d5d7877950fd9cca52aa11a125a8561
+ lib/com.ibm.ws.javaee.ddmodel_1.0.21.jar=b9675a3a39522094d75de547fb7d9bde
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.javaeedd_1.3-javadoc.zip=0d5e7ae51bcae107a11893eefc2e2b0f
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeddSchema-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeddSchema-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeddSchema-1.0.cs	2018-08-08 17:26:40.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javaeeddSchema-1.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,22 +1,2 @@
+-#Wed Aug 08 17:26:40 EDT 2018
+-dev/api/ibm/schema/ibm-application-bnd_1_0.xsd=dba5a51cb62c5ec2a1d173f449da7a0e
+-dev/api/ibm/schema/ibm-web-bnd_1_2.xsd=1547623913fe6f55e2035d0cd7bcb55e
+-dev/api/ibm/schema/ibm-ejb-jar-ext_1_1.xsd=318b27b6da5da73f444122817b0d8555
+-dev/api/ibm/schema/ibm-application-bnd_1_2.xsd=350cfbb3e7ca961cdf5fe4092cbc2360
+-dev/api/ibm/schema/ibm-common-ext_1_1.xsd=5e5f54997575fe5f74d004ac71ca2b9b
+-dev/api/ibm/schema/ibm-web-ext_1_0.xsd=b8a18f30611299eaf1c0a58500b12b1b
+-dev/api/ibm/schema/ibm-ejb-jar-bnd_1_0.xsd=04244027779a6b1cc0e8dd792c8508e7
+-dev/api/ibm/schema/ibm-common-bnd_1_0.xsd=584477da3b8ed65f4b68aafd49316a43
+-dev/api/ibm/schema/ibm-application-ext_1_1.xsd=b5b18626d7ff8d5f8d27d9b3481c6eff
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/features/com.ibm.websphere.appserver.javaeeddSchema-1.0.mf=3d6d3c00e60673178b3e85cd008d3e5e
+-dev/api/ibm/schema/ibm-ejb-jar-bnd_1_2.xsd=7fdade1e7dd4d127786879080607e705
+-dev/api/ibm/schema/ibm-common-bnd_1_2.xsd=18e980526624a0d150f5ac1886c7e5c9
+-dev/api/ibm/schema/ibm-web-bnd_1_1.xsd=f35c64f17766f46ee68e48d0fc747c01
+-dev/api/ibm/schema/ibm-ejb-jar-ext_1_0.xsd=832b36ff65951f8c0113f1537f35a662
+-dev/api/ibm/schema/ibm-application-bnd_1_1.xsd=db9bfc846044ee6e6b659c69431408d0
+-dev/api/ibm/schema/ibm-common-ext_1_0.xsd=86ac1402dffbb1d8a89e95a5b64ff644
+-dev/api/ibm/schema/ibm-application-ext_1_0.xsd=16803c0bc51323a56fe777ec5689297f
+-dev/api/ibm/schema/ibm-ejb-jar-bnd_1_1.xsd=42698b0abf2e78c51b418908b278f299
+-dev/api/ibm/schema/ibm-web-ext_1_1.xsd=7082e6648e343f33b9316d68d4a75919
+-dev/api/ibm/schema/ibm-common-bnd_1_1.xsd=32372cff7d7411583319ba7acee610fa
+-dev/api/ibm/schema/ibm-web-bnd_1_0.xsd=da53b82a2c2c1c2212ecbc77bb27f334
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.annotation-1.1.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.annotation-1.1.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.annotation-1.1.cs	2018-08-08 17:25:42.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.annotation-1.1.cs	2018-08-08 17:25:08.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:25:42 EDT 2018
++#Wed Aug 08 17:25:08 EDT 2018
+ lib/features/com.ibm.websphere.appserver.javax.annotation-1.1.mf=caa61595e92b59e1887611b77ffe365c
+ dev/api/spec/com.ibm.websphere.javaee.annotation.1.1_1.0.21.jar=c186d9febd8c046ce244134b8b907f97
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.annotation-1.2.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.annotation-1.2.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.annotation-1.2.cs	2018-08-08 17:26:23.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.annotation-1.2.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:23 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ dev/api/spec/com.ibm.websphere.javaee.annotation.1.2_1.0.21.jar=5b13edcf447e652d374790450639785a
+ lib/features/com.ibm.websphere.appserver.javax.annotation-1.2.mf=fb64ae2e15001fee7e72e1e9efaac523
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.cdi-1.2.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.cdi-1.2.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.cdi-1.2.cs	2018-08-08 17:26:22.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.cdi-1.2.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:22 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ dev/api/spec/com.ibm.websphere.javaee.cdi.1.2_1.2.21.jar=9423edfd32ac4172ae52bd8780c3dddb
+ lib/features/com.ibm.websphere.appserver.javax.cdi-1.2.mf=5dc0a96adb460d34f6b44f5dce46a6ae
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.connector.internal-1.6.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.connector.internal-1.6.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.connector.internal-1.6.cs	2018-08-08 17:25:47.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.connector.internal-1.6.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:25:47 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ dev/api/spec/com.ibm.websphere.javaee.connector.1.6_1.0.21.jar=fd2cef24b9e72aa37890dd70b2f5cfc7
+ lib/features/com.ibm.websphere.appserver.javax.connector.internal-1.6.mf=397b71c4d2886e4f342699e07ff1b4e9
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.connector.internal-1.7.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.connector.internal-1.7.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.connector.internal-1.7.cs	2018-08-08 17:26:23.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.connector.internal-1.7.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:23 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/features/com.ibm.websphere.appserver.javax.connector.internal-1.7.mf=e4610a3c45d3b36cfd8c3e74e544200d
+ dev/api/spec/com.ibm.websphere.javaee.connector.1.7_1.0.21.jar=bfd17d1cc9490adb2739c65332564af3
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.el-3.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.el-3.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.el-3.0.cs	2018-08-08 17:26:22.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.el-3.0.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:22 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ dev/api/spec/com.ibm.websphere.javaee.el.3.0_1.0.21.jar=81531dee6ecc73628b6517d8db928192
+ lib/features/com.ibm.websphere.appserver.javax.el-3.0.mf=b37bb282fb9efea7ca748ec7c61d24c1
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.interceptor-1.2.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.interceptor-1.2.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.interceptor-1.2.cs	2018-08-08 17:26:22.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.interceptor-1.2.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:22 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/features/com.ibm.websphere.appserver.javax.interceptor-1.2.mf=9893c3bddbc3759aa4e525d2a9b0cab7
+ dev/api/spec/com.ibm.websphere.javaee.interceptor.1.2_1.0.21.jar=076fe7c5f3ef548b0e3b38568538fb0e
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.persistence.base-2.1.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.persistence.base-2.1.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.persistence.base-2.1.cs	2018-08-08 17:26:26.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.persistence.base-2.1.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:26 EDT 2018
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/features/com.ibm.websphere.appserver.javax.persistence.base-2.1.mf=c9ddee9f64b7f508ddc277bde6cb973e
+ lib/com.ibm.ws.javaee.persistence.2.1_1.0.21.jar=b979450e43045f7e4443ecb881a3044e
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.servlet-3.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.servlet-3.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.servlet-3.0.cs	2018-08-08 17:25:48.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.servlet-3.0.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:25:48 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/features/com.ibm.websphere.appserver.javax.servlet-3.0.mf=087a3ff56ec041f4a53ec30ecf04f216
+ dev/api/spec/com.ibm.websphere.javaee.servlet.3.0_1.0.21.jar=9f3996f99662af697839a04d0d08488c
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.servlet-3.1.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.servlet-3.1.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.servlet-3.1.cs	2018-08-08 17:26:39.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.javax.servlet-3.1.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:39 EDT 2018
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/features/com.ibm.websphere.appserver.javax.servlet-3.1.mf=88f8ab041ace34dd1fdcb2d216ffe1f2
+ dev/api/spec/com.ibm.websphere.javaee.servlet.3.1_1.0.21.jar=42c9e0b8229dee7a57d8f013bf51c84b
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jaxb-2.2.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jaxb-2.2.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jaxb-2.2.cs	2018-08-08 17:25:59.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jaxb-2.2.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,9 +1,3 @@
+-#Wed Aug 08 17:25:59 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ lib/features/com.ibm.websphere.appserver.jaxb-2.2.mf=40ba76d650f1c931bbaa093d11fa835c
+-bin/jaxb/xjc.bat=64de6a9535ef61c3f3fcd20fda36e390
+-bin/jaxb/tools/ws-xjc.jar=b8b21156f672d77a749afd5010d16c0d
+ lib/com.ibm.ws.jaxb.tools.2.2.10_1.0.21.jar=1d63128a608e4be47161f7a0c9da7038
+-bin/jaxb/xjc=471a6861b6b28be845a1a2206d1d6581
+-bin/jaxb/schemagen=2f61c4eeac56f1257f83febe5a25647d
+-bin/jaxb/tools/ws-schemagen.jar=605b72142980d42688966d8c03cb7497
+-bin/jaxb/schemagen.bat=d7a148d76af2571c91ee0231d3a6798a
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jaxb.internal-2.2.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jaxb.internal-2.2.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jaxb.internal-2.2.cs	2018-08-08 17:26:01.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jaxb.internal-2.2.cs	2018-08-08 17:25:14.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:01 EDT 2018
++#Wed Aug 08 17:25:14 EDT 2018
+ lib/features/com.ibm.websphere.appserver.jaxb.internal-2.2.mf=f97c3faf376d765d3626444c9eb5dc46
+ lib/com.ibm.ws.xlxp.1.5.3_1.0.21.jar=dfa9ec9f398723cc0d11c9a696cbc5eb
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jcaSecurity-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jcaSecurity-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jcaSecurity-1.0.cs	2018-08-08 17:26:24.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jcaSecurity-1.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:24 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/com.ibm.ws.security.auth.data.common_1.0.21.jar=3aacd6deef78e2fa341a5355c3576f8f
+ lib/com.ibm.ws.security.jca_1.0.21.jar=462ff801247ffe0bf7de7bf96c219f1d
+ lib/features/com.ibm.websphere.appserver.jcaSecurity-1.0.mf=08f54214f1adb5ca2b0f0edc24e826cd
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jdbc-4.1.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jdbc-4.1.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jdbc-4.1.cs	2018-08-08 17:26:39.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jdbc-4.1.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:39 EDT 2018
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/com.ibm.ws.jdbc.4.1.feature_1.0.21.jar=088718a15f55466f23e5f605c4654024
+ lib/com.ibm.ws.jdbc_1.0.21.jar=c1cd4027a7a4553cb01c8916dc5fc251
+ lib/com.ibm.ws.jdbc.4.1_1.0.21.jar=38f55473bd012054a255f6f284610f68
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jeeMetadataContext-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jeeMetadataContext-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jeeMetadataContext-1.0.cs	2018-08-08 17:26:22.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jeeMetadataContext-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:22 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/com.ibm.ws.javaee.metadata.context_1.0.21.jar=ce28e7471a6b0fe89f2adea7741f919a
+ lib/features/com.ibm.websphere.appserver.jeeMetadataContext-1.0.mf=e514023d0b7de75d86c73fde865109d6
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jndi-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jndi-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jndi-1.0.cs	2018-08-08 17:26:10.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jndi-1.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:10 EDT 2018
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/com.ibm.ws.jndi.url.contexts_1.0.21.jar=d5b5a8a57e71e628bf5c61dc49bee96f
+ lib/com.ibm.ws.jndi_1.0.21.jar=185cc4b6a14bfc8571a5742f0934e610
+ lib/com.ibm.ws.org.apache.aries.jndi.core_1.1.21.jar=8162cb0fc7274f4f91f65535ead98ea9
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.json-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.json-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.json-1.0.cs	2018-08-08 17:26:17.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.json-1.0.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:17 EDT 2018
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/com.ibm.json4j_1.0.21.jar=268175c75ab77a443a5fa733f2e554a2
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.json_1.0-javadoc.zip=5fdc52080e2f8edb91746c755eb2523c
+ lib/features/com.ibm.websphere.appserver.json-1.0.mf=898413ec162e956ba259a4edd3f1c0bc
+ dev/api/ibm/com.ibm.websphere.appserver.api.json_1.0.21.jar=8ae482e459a1f02b99226f93e0f04f33
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jsonp-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jsonp-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jsonp-1.0.cs	2018-08-08 17:26:47.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jsonp-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:47 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ dev/api/spec/com.ibm.websphere.javaee.jsonp.1.0_1.0.21.jar=35981ccaa7e22d0b0c2f843c7c76ef34
+ lib/features/com.ibm.websphere.appserver.jsonp-1.0.mf=1758058ccf70773da6e5eaf7db964b5a
+ lib/com.ibm.ws.org.glassfish.json.1.0_1.0.21.jar=d47549a45028d0c010f3733196966966
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jta-1.1.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jta-1.1.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jta-1.1.cs	2018-08-08 17:25:49.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jta-1.1.cs	2018-08-08 17:25:09.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:25:49 EDT 2018
++#Wed Aug 08 17:25:09 EDT 2018
+ dev/api/spec/com.ibm.websphere.javaee.transaction.1.1_1.0.21.jar=f075f0cd30e17faf1ff0fdcd13e5ce1b
+ lib/features/com.ibm.websphere.appserver.jta-1.1.mf=dcfabfa9285a51bc10fc9fdf70b517ce
+ dev/api/ibm/com.ibm.websphere.appserver.api.transaction_1.1.21.jar=b2dab4642ca6c570ede9c8fb6d946942
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.transaction_1.1-javadoc.zip=4d4c31866a6691758cbca408ff1e433d
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jta-1.2.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jta-1.2.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jta-1.2.cs	2018-08-08 17:26:23.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.jta-1.2.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:23 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/features/com.ibm.websphere.appserver.jta-1.2.mf=1ab3a564273758f87e16d1ab63a08dd0
+ dev/api/spec/com.ibm.websphere.javaee.transaction.1.2_1.0.21.jar=eb1c221e25211552cb2fd31cfe24f47a
+ dev/api/ibm/com.ibm.websphere.appserver.api.transaction_1.1.21.jar=b2dab4642ca6c570ede9c8fb6d946942
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.transaction_1.1-javadoc.zip=4d4c31866a6691758cbca408ff1e433d
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.ltpa-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.ltpa-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.ltpa-1.0.cs	2018-08-08 17:26:11.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.ltpa-1.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:11 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/com.ibm.ws.security.credentials.ssotoken_1.0.21.jar=b3ee8fbbf09e8b0a73aabcb93e4dd417
+ lib/features/com.ibm.websphere.appserver.ltpa-1.0.mf=9ce823f5c2bff5c902644d04806b5122
+ lib/com.ibm.ws.security.token.ltpa_1.0.21.jar=b89081aaab5cbfb5bede2617011ac4d1
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.org.eclipse.persistence-2.6.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.org.eclipse.persistence-2.6.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.org.eclipse.persistence-2.6.cs	2018-08-08 17:26:38.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.org.eclipse.persistence-2.6.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:38 EDT 2018
++#Wed Aug 08 17:25:12 EDT 2018
+ dev/api/third-party/com.ibm.websphere.appserver.thirdparty.eclipselink_1.0.21.jar=f2d2d0b97b12788a7af2f5b0771cd255
+ lib/features/com.ibm.websphere.appserver.org.eclipse.persistence-2.6.mf=0db10a583fae50ac149f862386d5083d
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.requestProbes-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.requestProbes-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.requestProbes-1.0.cs	2018-08-08 17:26:05.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.requestProbes-1.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:05 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/features/com.ibm.websphere.appserver.requestProbes-1.0.mf=e7a5e469e2b2ea1d5b5bd1f4558a7043
+ lib/com.ibm.ws.request.probes_1.0.21.jar=099dee0858b5ba1ce66ec5d3a0185908
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.restHandler-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.restHandler-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.restHandler-1.0.cs	2018-08-08 17:26:20.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.restHandler-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,8 +1,7 @@
+-#Wed Aug 08 17:26:20 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/features/com.ibm.websphere.appserver.restHandler-1.0.mf=12f8ebb0bcc0fddad4bc7fec3c388c07
+ lib/com.ibm.ws.rest.handler_1.0.21.jar=edb17a34152617df3fc858e62772276f
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.restHandler_2.0.21.jar=96d62e871475ced17e1e691012a7419a
+ lib/com.ibm.websphere.jsonsupport_1.0.21.jar=9c1baf456be71ffcc84e09506cf2a1a3
+ lib/com.ibm.websphere.rest.handler_1.0.21.jar=e89abd0001f4e84743242db2d2ea709f
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.restHandler_2.0-javadoc.zip=468fc6e89c439d95b6754386643b896f
+ lib/com.ibm.ws.org.joda.time.1.6.2_1.0.21.jar=446a3a8aa53a43bebcce002676ec05fd
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.security-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.security-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.security-1.0.cs	2018-08-08 17:26:17.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.security-1.0.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:17 EDT 2018
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.security_1.2-javadoc.zip=e32162aeb21c9cccd17886986ea51a68
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/com.ibm.websphere.security.impl_1.0.21.jar=5a58416f9606a32b70f8738fe430809e
+ lib/com.ibm.ws.security.quickstart_1.0.21.jar=7dbd155700872111ade7e5ce0505e002
+ lib/features/com.ibm.websphere.appserver.security-1.0.mf=1c42ebc82f037c4fc09a3e32e606e65f
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.securityContext-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.securityContext-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.securityContext-1.0.cs	2018-08-08 17:26:49.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.securityContext-1.0.cs	2018-08-08 17:25:14.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:49 EDT 2018
++#Wed Aug 08 17:25:14 EDT 2018
+ lib/com.ibm.ws.security.context_1.0.21.jar=d651bf1c1d8936ee057574b4037ac4ea
+ lib/features/com.ibm.websphere.appserver.securityContext-1.0.mf=03985da9289dff5f03925d463a6937c1
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.securityInfrastructure-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.securityInfrastructure-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.securityInfrastructure-1.0.cs	2018-08-08 17:26:12.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.securityInfrastructure-1.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:12 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/com.ibm.ws.management.security_1.0.21.jar=728b2ebc74356de78d1301db2c0596f1
+ lib/com.ibm.ws.security.registry_1.0.21.jar=ca0b6fb28d41429c35e6488e3c8ae830
+ lib/com.ibm.ws.security.ready.service_1.0.21.jar=6213f7bfd5cd1a28eae440d40abb7333
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-3.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-3.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-3.0.cs	2018-08-08 17:26:10.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-3.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,36 +1,17 @@
+-#Wed Aug 08 17:26:10 EDT 2018
+-lib/com.ibm.ws.webserver.plugin.runtime_1.0.21.jar=d465187bb09ff94516848773449ce531
+-dev/api/ibm/schema/ibm-application-bnd_1_0.xsd=dba5a51cb62c5ec2a1d173f449da7a0e
+-lib/features/com.ibm.websphere.appserver.servlet-3.0.mf=6abd46d8d348dd25fd27a6cb5cb69bbb
++#Wed Aug 08 17:25:11 EDT 2018
++lib/com.ibm.ws.app.manager.module_1.0.21.jar=1a887699d050356555a4d9396c0f9792
+ dev/api/ibm/com.ibm.websphere.appserver.api.servlet_1.1.21.jar=2f36561c2ee16d3c8f39454dc2c53b39
++lib/com.ibm.ws.org.apache.commons.io_1.0.21.jar=a348abadcb3c5622007bf6cf06ab4d03
++lib/com.ibm.ws.app.manager.war_1.0.21.jar=7fee7430ad33b41aeaf6855f752577df
+ lib/com.ibm.ws.webserver.plugin.utility_1.0.21.jar=11174d3b712a6f37aca73dbe1c59170b
+-lib/com.ibm.ws.app.manager.module_1.0.21.jar=1a887699d050356555a4d9396c0f9792
+-dev/api/ibm/schema/ibm-web-bnd_1_2.xsd=1547623913fe6f55e2035d0cd7bcb55e
+-bin/tools/ws-webserverPluginutil.jar=33aaf76ba81583d113bf3917f9474505
+-lib/com.ibm.ws.http.plugin.merge_1.0.21.jar=8e0651203e7abe174341c0f64a81c825
+-dev/api/ibm/schema/ibm-application-bnd_1_2.xsd=350cfbb3e7ca961cdf5fe4092cbc2360
+-dev/api/ibm/schema/ibm-common-ext_1_1.xsd=5e5f54997575fe5f74d004ac71ca2b9b
+-dev/api/ibm/schema/ibm-web-ext_1_0.xsd=b8a18f30611299eaf1c0a58500b12b1b
+-dev/api/ibm/schema/ibm-common-bnd_1_0.xsd=584477da3b8ed65f4b68aafd49316a43
+-lib/com.ibm.ws.webcontainer.servlet.3.0.factories_1.0.21.jar=3fbfe86253580a80b38de370cf46db21
+-dev/api/ibm/schema/ibm-application-ext_1_1.xsd=b5b18626d7ff8d5f8d27d9b3481c6eff
+ lib/com.ibm.ws.session_1.0.21.jar=5546e7eb59f2142e0f09c31345cae784
+-lib/com.ibm.websphere.security_1.1.21.jar=3ca5e191cccb1a4c85962b3feb6e06dc
+-lib/com.ibm.ws.app.manager.war_1.0.21.jar=7fee7430ad33b41aeaf6855f752577df
+-dev/api/ibm/schema/ibm-common-bnd_1_2.xsd=18e980526624a0d150f5ac1886c7e5c9
+ lib/com.ibm.ws.org.apache.commons.fileupload_1.0.21.jar=4832aaa00c3dd511d3927897d03186e0
+-dev/api/ibm/schema/ibm-web-bnd_1_1.xsd=f35c64f17766f46ee68e48d0fc747c01
++lib/features/com.ibm.websphere.appserver.servlet-3.0.mf=6abd46d8d348dd25fd27a6cb5cb69bbb
++lib/com.ibm.ws.webserver.plugin.runtime.interfaces_1.0.21.jar=660b9428aa53502d33b05d57f8bfdd49
++lib/com.ibm.ws.webserver.plugin.runtime_1.0.21.jar=d465187bb09ff94516848773449ce531
++lib/com.ibm.ws.webcontainer.servlet.3.0.factories_1.0.21.jar=3fbfe86253580a80b38de370cf46db21
+ lib/com.ibm.ws.webcontainer_1.1.21.jar=4d8a2a5174062326ad9fcc41990eee3c
+-lib/com.ibm.ws.managedobject_1.0.21.jar=19f2a75acf01253bb1b4375051a562ad
+-dev/api/ibm/schema/ibm-application-bnd_1_1.xsd=db9bfc846044ee6e6b659c69431408d0
+-dev/api/ibm/schema/ibm-common-ext_1_0.xsd=86ac1402dffbb1d8a89e95a5b64ff644
+ lib/com.ibm.ws.webcontainer.cors_1.0.21.jar=915bcf491b24b1471ea10d8aecaf5580
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.servlet_1.1-javadoc.zip=5882729d669ffb52a1eda1fd0806bef3
+-lib/com.ibm.ws.org.apache.commons.io_1.0.21.jar=a348abadcb3c5622007bf6cf06ab4d03
+-dev/api/ibm/schema/ibm-application-ext_1_0.xsd=16803c0bc51323a56fe777ec5689297f
+-bin/pluginUtility.bat=868965ffa2c2d8ab3f9a1237516886ba
+-dev/api/ibm/schema/ibm-web-ext_1_1.xsd=7082e6648e343f33b9316d68d4a75919
+-dev/api/ibm/schema/ibm-common-bnd_1_1.xsd=32372cff7d7411583319ba7acee610fa
+-lib/com.ibm.ws.webserver.plugin.runtime.interfaces_1.0.21.jar=660b9428aa53502d33b05d57f8bfdd49
+-bin/pluginUtility=dab07769884a7bc5c4959f98b87d07ff
+-dev/api/ibm/schema/ibm-web-bnd_1_0.xsd=da53b82a2c2c1c2212ecbc77bb27f334
++lib/com.ibm.ws.managedobject_1.0.21.jar=19f2a75acf01253bb1b4375051a562ad
++lib/com.ibm.websphere.security_1.1.21.jar=3ca5e191cccb1a4c85962b3feb6e06dc
++lib/com.ibm.ws.http.plugin.merge_1.0.21.jar=8e0651203e7abe174341c0f64a81c825
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-3.1.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-3.1.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-3.1.cs	2018-08-08 17:26:45.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-3.1.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,21 +1,17 @@
+-#Wed Aug 08 17:26:45 EDT 2018
+-lib/com.ibm.ws.webserver.plugin.runtime_1.0.21.jar=d465187bb09ff94516848773449ce531
++#Wed Aug 08 17:25:12 EDT 2018
+ dev/api/ibm/com.ibm.websphere.appserver.api.servlet_1.1.21.jar=2f36561c2ee16d3c8f39454dc2c53b39
+-lib/com.ibm.ws.webserver.plugin.utility_1.0.21.jar=11174d3b712a6f37aca73dbe1c59170b
++lib/com.ibm.ws.org.apache.commons.io_1.0.21.jar=a348abadcb3c5622007bf6cf06ab4d03
++lib/com.ibm.ws.app.manager.war_1.0.21.jar=7fee7430ad33b41aeaf6855f752577df
+ lib/features/com.ibm.websphere.appserver.servlet-3.1.mf=32ee7be7af90b421870e8dd4591b2f0a
+-bin/tools/ws-webserverPluginutil.jar=33aaf76ba81583d113bf3917f9474505
+-lib/com.ibm.ws.http.plugin.merge_1.0.21.jar=8e0651203e7abe174341c0f64a81c825
+ lib/com.ibm.ws.webcontainer.servlet.3.1_1.0.21.jar=39730389222738368605a6b9ad3ed8dd
+-lib/com.ibm.ws.session_1.0.21.jar=5546e7eb59f2142e0f09c31345cae784
+-lib/com.ibm.websphere.security_1.1.21.jar=3ca5e191cccb1a4c85962b3feb6e06dc
+-lib/com.ibm.ws.app.manager.war_1.0.21.jar=7fee7430ad33b41aeaf6855f752577df
++lib/com.ibm.ws.webserver.plugin.utility_1.0.21.jar=11174d3b712a6f37aca73dbe1c59170b
++lib/com.ibm.ws.webcontainer.servlet.3.1.factories_1.0.21.jar=e626c8c585038b50e12d593b73ab52d5
+ lib/com.ibm.ws.org.apache.commons.fileupload_1.0.21.jar=4832aaa00c3dd511d3927897d03186e0
++lib/com.ibm.ws.session_1.0.21.jar=5546e7eb59f2142e0f09c31345cae784
++lib/com.ibm.ws.webserver.plugin.runtime.interfaces_1.0.21.jar=660b9428aa53502d33b05d57f8bfdd49
++lib/com.ibm.ws.webserver.plugin.runtime_1.0.21.jar=d465187bb09ff94516848773449ce531
+ lib/com.ibm.ws.webcontainer_1.1.21.jar=4d8a2a5174062326ad9fcc41990eee3c
+-lib/com.ibm.ws.managedobject_1.0.21.jar=19f2a75acf01253bb1b4375051a562ad
+-lib/com.ibm.ws.webcontainer.servlet.3.1.factories_1.0.21.jar=e626c8c585038b50e12d593b73ab52d5
+ lib/com.ibm.ws.webcontainer.cors_1.0.21.jar=915bcf491b24b1471ea10d8aecaf5580
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.servlet_1.1-javadoc.zip=5882729d669ffb52a1eda1fd0806bef3
+-lib/com.ibm.ws.org.apache.commons.io_1.0.21.jar=a348abadcb3c5622007bf6cf06ab4d03
+-bin/pluginUtility.bat=868965ffa2c2d8ab3f9a1237516886ba
+-lib/com.ibm.ws.webserver.plugin.runtime.interfaces_1.0.21.jar=660b9428aa53502d33b05d57f8bfdd49
+-bin/pluginUtility=dab07769884a7bc5c4959f98b87d07ff
++lib/com.ibm.ws.managedobject_1.0.21.jar=19f2a75acf01253bb1b4375051a562ad
++lib/com.ibm.websphere.security_1.1.21.jar=3ca5e191cccb1a4c85962b3feb6e06dc
++lib/com.ibm.ws.http.plugin.merge_1.0.21.jar=8e0651203e7abe174341c0f64a81c825
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-servletSpi1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-servletSpi1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-servletSpi1.0.cs	2018-08-08 17:26:03.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.servlet-servletSpi1.0.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,4 +1,3 @@
+-#Wed Aug 08 17:26:03 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/features/com.ibm.websphere.appserver.servlet-servletSpi1.0.mf=e83bca7a826306a90e48b4c905e80461
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.servlet_2.2.21.jar=e722ff93b03364e51101320ca5c7759a
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.servlet_2.2-javadoc.zip=f0f95471f6aa4df548e6ef4c8bd17629
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.ssl-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.ssl-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.ssl-1.0.cs	2018-08-08 17:26:14.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.ssl-1.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,10 +1,8 @@
+-#Wed Aug 08 17:26:14 EDT 2018
+-dev/api/ibm/com.ibm.websphere.appserver.api.ssl_1.1.21.jar=96be902bf0f395135200fe53eb7692e9
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.ssl_1.1-javadoc.zip=b7123a9bfa00ace4e9f569fd1f37916e
+-lib/features/com.ibm.websphere.appserver.ssl-1.0.mf=a09a1a22a460519427bfa9594fe5d966
++#Wed Aug 08 17:25:11 EDT 2018
+ dev/spi/ibm/com.ibm.websphere.appserver.spi.ssl_1.2.21.jar=337b8f6a8bf07b198103458a7896c543
+-lib/com.ibm.ws.channel.ssl_1.0.21.jar=c84dc59789ebad12431adb02c84f7904
+ lib/com.ibm.ws.ssl_1.1.21.jar=bc6ba4cae39871eb698b798145027619
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.ssl_1.2-javadoc.zip=18ea54ccb9708c6587a892badbd1fb03
++lib/features/com.ibm.websphere.appserver.ssl-1.0.mf=a09a1a22a460519427bfa9594fe5d966
++lib/com.ibm.ws.channel.ssl_1.0.21.jar=c84dc59789ebad12431adb02c84f7904
+ lib/com.ibm.ws.crypto.certificateutil_1.0.21.jar=8704691724be756d09fefbb4219c10fc
+ lib/com.ibm.websphere.security_1.1.21.jar=3ca5e191cccb1a4c85962b3feb6e06dc
++dev/api/ibm/com.ibm.websphere.appserver.api.ssl_1.1.21.jar=96be902bf0f395135200fe53eb7692e9
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transaction-1.1.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transaction-1.1.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transaction-1.1.cs	2018-08-08 17:25:50.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transaction-1.1.cs	2018-08-08 17:25:10.000000000 -0400
+@@ -1,10 +1,9 @@
+-#Wed Aug 08 17:25:50 EDT 2018
++#Wed Aug 08 17:25:10 EDT 2018
+ lib/features/com.ibm.websphere.appserver.transaction-1.1.mf=db5f84eae30852539369ae1d1994e5b7
+ lib/com.ibm.ws.transaction_1.0.21.jar=3a9f1b5695b788176eac507bbed1e57d
+ lib/com.ibm.tx.jta_1.0.21.jar=d6a14117bb64ae244c4c5b79d6443f7d
+ lib/com.ibm.ws.tx.embeddable_1.0.21.jar=e016d33b688c317efb41b2083ae6c30a
+ lib/com.ibm.tx.ltc_1.0.21.jar=a6e1c1078948c456380605018230bcb7
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.transaction_1.1-javadoc.zip=85d5a0629600caff54a51a297f01c86a
+ lib/com.ibm.tx.util_1.0.21.jar=81010b75610aa1137d3249b821560b3c
+ lib/com.ibm.ws.tx.jta.extensions_1.0.21.jar=dc8b532487b73a099161c063c8a0fda9
+ lib/com.ibm.ws.recoverylog_1.0.21.jar=a3d8e45ec27f3050b4ca7251023475d7
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transaction-1.2.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transaction-1.2.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transaction-1.2.cs	2018-08-08 17:26:26.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transaction-1.2.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,9 +1,8 @@
+-#Wed Aug 08 17:26:26 EDT 2018
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/com.ibm.ws.transaction_1.0.21.jar=3a9f1b5695b788176eac507bbed1e57d
+ lib/com.ibm.tx.jta_1.0.21.jar=d6a14117bb64ae244c4c5b79d6443f7d
+ lib/com.ibm.ws.tx.embeddable_1.0.21.jar=e016d33b688c317efb41b2083ae6c30a
+ lib/com.ibm.tx.ltc_1.0.21.jar=a6e1c1078948c456380605018230bcb7
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.transaction_1.1-javadoc.zip=85d5a0629600caff54a51a297f01c86a
+ lib/com.ibm.ws.transaction.cdi_1.0.21.jar=44cd729b6db0851ad3166c9bf45bb8ac
+ lib/com.ibm.ws.cdi.interfaces_1.0.21.jar=6e1d8ef79d6fe3b79be17102b48e659b
+ lib/com.ibm.tx.util_1.0.21.jar=81010b75610aa1137d3249b821560b3c
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transactionContext-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transactionContext-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transactionContext-1.0.cs	2018-08-08 17:25:51.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.transactionContext-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:25:51 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/features/com.ibm.websphere.appserver.transactionContext-1.0.mf=9b62f796827f18267f9d9e4a4f35d773
+ lib/com.ibm.ws.transaction.context_1.0.21.jar=ef8d9ea56fc3c3d2af382056eeae7c64
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.waswelcomepage-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.waswelcomepage-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.waswelcomepage-1.0.cs	2018-08-08 17:26:21.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.websphere.appserver.waswelcomepage-1.0.cs	2018-08-08 17:25:13.000000000 -0400
+@@ -1,3 +1,3 @@
+-#Wed Aug 08 17:26:21 EDT 2018
++#Wed Aug 08 17:25:13 EDT 2018
+ lib/features/com.ibm.websphere.appserver.waswelcomepage-1.0.mf=b27de5f3e0362e458216dc2d32c22e78
+ lib/com.ibm.ws.transport.http.welcomePage_1.0.21.jar=fc5f74c8d6e45cc5e9f345de04737b49
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.ws.persistence-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.ws.persistence-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.ws.persistence-1.0.cs	2018-08-08 17:26:40.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.ws.persistence-1.0.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,10 +1,6 @@
+-#Wed Aug 08 17:26:40 EDT 2018
+-dev/api/ibm/javadoc/com.ibm.websphere.appserver.api.persistence_1.0-javadoc.zip=2f966a36a994d4db88d5a3f2d885e451
+-lib/com.ibm.ws.persistence_1.0.21.jar=bab90fb29504dcec648abd47fb76b4a0
+-bin/ddlGen.bat=173c3e07421c72f44c98721a93c2ff80
+-lib/features/com.ibm.ws.persistence-1.0.mf=c5566ba9bfc8ba85209720ed8cdcbe6f
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/com.ibm.ws.persistence.mbean_1.0.21.jar=f23485170d08f92aa4eaa16378e7ec6a
+-bin/tools/ws-generateddlutil.jar=8da43a50e2f9a944865a2b229eeb843d
+-bin/ddlGen=40e54f819f1b1fac52d7b8215ca83a13
+ lib/com.ibm.ws.persistence.utility_1.0.21.jar=1a20154ef4b46cdb2e9a205645d1785e
+ dev/api/ibm/com.ibm.websphere.appserver.api.persistence_1.0.21.jar=fb41af7a346012720d6d9aa50661fa2b
++lib/com.ibm.ws.persistence_1.0.21.jar=bab90fb29504dcec648abd47fb76b4a0
++lib/features/com.ibm.ws.persistence-1.0.mf=c5566ba9bfc8ba85209720ed8cdcbe6f
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.wsspi.appserver.webBundle-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.wsspi.appserver.webBundle-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.wsspi.appserver.webBundle-1.0.cs	2018-08-08 17:26:15.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.wsspi.appserver.webBundle-1.0.cs	2018-08-08 17:25:11.000000000 -0400
+@@ -1,5 +1,4 @@
+-#Wed Aug 08 17:26:15 EDT 2018
+-dev/spi/ibm/javadoc/com.ibm.websphere.appserver.spi.wab.configure_1.0-javadoc.zip=bdf0ed4481c64b0a398271b4adc2bea9
++#Wed Aug 08 17:25:11 EDT 2018
+ lib/features/com.ibm.wsspi.appserver.webBundle-1.0.mf=4eced160d8a65d4992af2092d4c43044
+ lib/com.ibm.ws.eba.wab.integrator_1.0.21.jar=60b77649554bd53478a3e5468204d0c2
+ lib/com.ibm.ws.app.manager.wab_1.0.21.jar=2d0728539a6134994645a1d178c2029f
+diff -ru 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.wsspi.appserver.webBundleSecurity-1.0.cs 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.wsspi.appserver.webBundleSecurity-1.0.cs
+--- 2.4.2/target/liberty/wlp/lib/features/checksums/com.ibm.wsspi.appserver.webBundleSecurity-1.0.cs	2018-08-08 17:26:18.000000000 -0400
++++ 2.5/target/liberty/wlp/lib/features/checksums/com.ibm.wsspi.appserver.webBundleSecurity-1.0.cs	2018-08-08 17:25:12.000000000 -0400
+@@ -1,4 +1,4 @@
+-#Wed Aug 08 17:26:18 EDT 2018
++#Wed Aug 08 17:25:12 EDT 2018
+ lib/com.ibm.ws.security.authorization.builtin_1.0.21.jar=b86b28f64c07d0147dd26a22487da75c
+ lib/com.ibm.ws.webcontainer.security_1.0.21.jar=ecd6054609751653faf63d420aa5356f
+ lib/features/com.ibm.wsspi.appserver.webBundleSecurity-1.0.mf=477ea956dfcd43ddcd77f839c1366760
