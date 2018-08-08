@@ -1,5 +1,5 @@
 # ci.maven-359
-Recreate for WASdev/ci.maven [issue 359](https://github.com/WASdev/ci.maven/issues/359)
+Recreate for WASdev/ci.maven [issue 359](https://github.com/WASdev/ci.maven/issues/359) and Open Liberty issue [4530](https://github.com/OpenLiberty/open-liberty/issues/4530)
 
 This compares the results of Maven plugin 2.4.2 (using installUtility) vs Maven plugin 2.5 (using the install map).
 
